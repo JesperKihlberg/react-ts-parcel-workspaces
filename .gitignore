@@ -1,0 +1,12 @@
+/node_modules
+/.cache
+/.parcel-cache
+/dist
+# ignore all node_modules folders in subfolders
+*/node_modules
+# ignore all .cache folders in subfolders
+*/.cache
+# ignore all parcel-cache folders in subfolders
+*/.parcel-cache
+# ignore all dist folders in subfolders
+*/dist

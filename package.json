@@ -1,0 +1,19 @@
+{
+  "name": "react-ts-parcel-workspaces",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm run start -w apps",
+    "build": "npm run build -ws",
+    "clean": "npm run clean -ws"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "process": "^0.11.10"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
